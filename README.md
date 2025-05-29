@@ -50,10 +50,10 @@ DAG 실행: news_sentiment_trend_dag
 
 | 파일명 | 설명 |
 |--------|------|
-| `news_YYYYMMDD.csv` | 수집 뉴스 원본 |
-| `keywords_YYYYMMDD.json` | 키워드 리스트 |
-| `sentiment_YYYYMMDD.json` | 키워드별 감성 점수 |
-| `report_YYYYMMDD.html` | 최종 HTML 보고서 |
+| `news_YYYYMMDD_hhmm.csv` | 수집 뉴스 원본 |
+| `keywords_YYYYMMDD_hhmm.json` | 키워드 리스트 |
+| `sentiment_YYYYMMDD_hhmm.json` | 키워드별 감성 점수 |
+| `report_YYYYMMDD_hhmm.html` | 최종 HTML 보고서 |
 
 ## 🧩 Airflow DAG 흐름
 
