@@ -23,6 +23,7 @@ scripts/ # 각 기능 모듈 스크립트
 templates/ # HTML 보고서 템플릿
 images/ # 결과 스크린샷
 data/ # 샘플 결과 파일
+fonts/ # 한글 글꼴
 
 ## 🚀 실행 방법
 
@@ -58,7 +59,7 @@ DAG 실행: news_sentiment
 
 ![DAG Graph View](images/dag_graphview.png)
 
-- fetch_news → preprocess_and_extract_keywords → sentiment_analysis → generate_report
+- fetch_news → preprocess_and_extract_keywords → sentiment_analysis → trend_analysis_and_visualization → generate_report
 
 ## 📈 향후 개선 방향
 
