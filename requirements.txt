@@ -1,14 +1,11 @@
 # requirements.txt
-pandas
-matplotlib
-konlpy
 feedparser
-Counter
-transformers
-pytz
-Okt
-json
-newspaper
-base64
 jinja2
-WordCloud
+konlpy
+matplotlib
+newspaper3k
+pandas
+pytz
+transformers
+toach
+wordcloud
