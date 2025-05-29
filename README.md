@@ -28,7 +28,7 @@ data/ # 샘플 결과 파일
 
 1. Docker + Airflow 구성
 ```bash
-git clone https://github.com/your-id/news-nlp-pipeline.git
+git clone https://github.com/yonglim2392/News-NLP-Pipeline-with-Airflow.git
 cd news-nlp-pipeline
 docker-compose up -d
 Airflow 웹 UI 접속
