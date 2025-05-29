@@ -1,0 +1,34 @@
+<!-- /opt/airflow/templates/report_template.html -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>뉴스 리포트 - {{ date_str }}</title>
+    <style>
+        body { font-family: 'Malgun Gothic', sans-serif; margin: 40px; }
+        h2 { color: #2c3e50; }
+        li { margin-bottom: 8px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>📅 뉴스 요약 리포트 - {{ date_str }}</h1>
+
+    <h2>1. 오늘의 주요 키워드 (TOP 10)</h2>
+    <ul>{{ keyword_section }}</ul>
+
+    <h2>2. 감성 분석 요약</h2>
+    <ul>{{ sentiment_summary }}</ul>
+    <img src="data:image/png;base64,{{ wordcloud_base64 }}" width="600">
+
+    <h2>3. 분야별 뉴스 분석</h2>
+    <table>
+        <tr><th>분야</th><th>기사 수</th><th>감성 비율</th></tr>
+        {{ category_section }}
+    </table>
+
+    <h2>4. 주요 뉴스 요약</h2>
+    <ol>{{ summary_list }}</ol>
+</body>
+</html>

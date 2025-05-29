@@ -1,0 +1,8 @@
+# requirements.txt
+matplotlib
+seaborn
+feedparser
+pandas
+transformers
+pytz
+Okt
