@@ -19,7 +19,7 @@ def create_dag():
     with DAG(
         dag_id="news_sentiment_trend_dag",
         start_date=datetime(2025, 5, 20, tzinfo=kst),
-        schedule_interval="0 8 * * *",  # 매일 08시 KST 실행
+        schedule_interval="0 0,4,9 * * *",  # KST 기준 09시, 13시, 18시
         catchup=False,
         default_args={
             "retries": 1,
