@@ -1,8 +1,14 @@
 # requirements.txt
-matplotlib
-seaborn
-feedparser
 pandas
+matplotlib
+konlpy
+feedparser
+Counter
 transformers
 pytz
 Okt
+json
+newspaper
+base64
+jinja2
+WordCloud
