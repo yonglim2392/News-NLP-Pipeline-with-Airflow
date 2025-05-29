@@ -18,30 +18,11 @@ Apache Airflow를 통해 매일 자동 실행되며, 결과는 HTML 포맷으로
 
 ## 📁 프로젝트 구조
 
-news-nlp-pipeline/
-├── dags/
-│   └── news_sentiment.py          # Airflow DAG 정의
-├── scripts/
-│   ├── fetch_news.py              # 뉴스 수집
-│   ├── extract_keywords.py        # 키워드 추출
-│   ├── sentiment_analysis.py      # 감성 분석
-│   ├── trend_visualization.py     # 시각화
-│   ├── generate_report.py         # HTML 보고서 생성
-├── templates/
-│   └── report_template.html       # 리포트 템플릿
-├── images/
-│   ├── wordcloud_sample.png
-│   ├── dag_graphview.png
-│   └── report_preview.png
-├── data/
-│   ├── keywords_sample.json
-│   ├── sentiment_sample.json
-│   └── report_sample.html
-├── fonts/
-│   └── malgun.ttf
-├── requirements.txt
-├── README.md
-└── LICENSE
+dags/ # Airflow DAG 정의
+scripts/ # 각 기능 모듈 스크립트
+templates/ # HTML 보고서 템플릿
+images/ # 결과 스크린샷
+data/ # 샘플 결과 파일
 
 ## 🚀 실행 방법
 
