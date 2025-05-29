@@ -18,12 +18,12 @@ Apache Airflow를 통해 매일 자동 실행되며, 결과는 HTML 포맷으로
 
 ## 📁 프로젝트 구조
 
-dags/ # Airflow DAG 정의
-scripts/ # 각 기능 모듈 스크립트
-templates/ # HTML 보고서 템플릿
-images/ # 결과 스크린샷
-data/ # 샘플 결과 파일
-fonts/ # 한글 글꼴
+- dags/ # Airflow DAG 정의
+- scripts/ # 각 기능 모듈 스크립트
+- templates/ # HTML 보고서 템플릿
+- images/ # 결과 스크린샷
+- data/ # 샘플 결과 파일
+- fonts/ # 한글 글꼴
 
 ## 🚀 실행 방법
 
