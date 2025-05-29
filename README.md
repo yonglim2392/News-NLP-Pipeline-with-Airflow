@@ -35,7 +35,7 @@ docker-compose up -d
 Airflow 웹 UI 접속
 http://localhost:8080
 
-DAG 실행: news_sentiment
+DAG 실행: news_sentiment_trend_dag
 ```
 
 ## ✅ 주요 기능 설명
